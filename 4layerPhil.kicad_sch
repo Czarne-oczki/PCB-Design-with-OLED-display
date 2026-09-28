@@ -10393,7 +10393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41b67bd6-f7db-499e-9419-43cfb00f2043")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 231.902 79.248 90)
 			(effects
 				(font
@@ -10447,7 +10447,7 @@
 		(instances
 			(project "4layerPhil"
 				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12506,7 +12506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c128ff8-41fb-4482-89ba-e3909eb74353")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 224.79 84.836 90)
 			(effects
 				(font
@@ -12560,7 +12560,7 @@
 		(instances
 			(project "4layerPhil"
 				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -12644,7 +12644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91447d49-f7f3-4607-a752-f44e10b3d983")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 138.43 66.04 90)
 			(effects
 				(font
@@ -12696,7 +12696,7 @@
 		(instances
 			(project "4layerPhil"
 				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
