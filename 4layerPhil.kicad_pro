@@ -252,7 +252,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2311400|711200|fa823958-a8a9-4859-8dcb-8e1acfb46843|73e2b05c-ec8d-46ce-92c2-01c36c679ebd|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2",
+        ""
+      ],
+      [
+        "pin_to_pin|2552700|1143000|f4944c2c-59b3-454b-b393-888250c324bc|8977ca5e-5f32-4df6-a606-d4974e47b211|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2",
+        ""
+      ],
+      [
+        "pin_to_pin|736600|1371600|43f1cdf1-6d0b-4ece-8d87-cf39a792dc34|6ad6dfe8-c3f2-485f-8b97-a32f5277d190|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2|/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
