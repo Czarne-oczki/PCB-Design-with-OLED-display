@@ -517,8 +517,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "3v3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 33, 3)",
+        "priority": 3,
         "schematic_color": "rgb(255, 33, 3)",
         "wire_width": 6
       },
@@ -526,8 +526,8 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "BTN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(255, 177, 0)",
+        "priority": 6,
         "schematic_color": "rgb(255, 177, 0)",
         "wire_width": 6
       },
@@ -535,17 +535,26 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(119, 117, 120)",
+        "priority": 4,
         "schematic_color": "rgb(119, 117, 120)",
         "wire_width": 12
       },
       {
         "bus_width": 12,
         "line_style": 0,
+        "name": "I2C",
+        "pcb_color": "rgb(123, 195, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(123, 195, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "LED",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "pcb_color": "rgb(0, 20, 255)",
+        "priority": 5,
         "schematic_color": "rgb(0, 20, 255)",
         "wire_width": 6
       },
@@ -553,18 +562,36 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(186, 0, 255)",
+        "priority": 7,
         "schematic_color": "rgb(186, 0, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
         "line_style": 0,
+        "name": "SerialWireDebug",
+        "pcb_color": "rgb(0, 150, 152)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 150, 152)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "pcb_color": "rgb(0, 255, 19)",
+        "priority": 8,
         "schematic_color": "rgb(0, 255, 19)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "cristal",
+        "pcb_color": "rgb(255, 100, 243)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 100, 243)",
         "wire_width": 6
       }
     ],
@@ -628,7 +655,27 @@
       },
       {
         "netclass": "3v3",
-        "pattern": "3v3"
+        "pattern": "+*"
+      },
+      {
+        "netclass": "SerialWireDebug",
+        "pattern": "/SWO"
+      },
+      {
+        "netclass": "SerialWireDebug",
+        "pattern": "/SWDIO"
+      },
+      {
+        "netclass": "SerialWireDebug",
+        "pattern": "/SWCLK"
+      },
+      {
+        "netclass": "cristal",
+        "pattern": "/HSE*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/I2C*"
       }
     ]
   },
