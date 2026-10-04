@@ -195,6 +195,7 @@
         0.0,
         0.3,
         0.5,
+        0.6,
         0.75,
         1.0
       ],
@@ -469,7 +470,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -511,6 +512,60 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 33, 3)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "BTN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(255, 177, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(119, 117, 120)",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "LED",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 20, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(186, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 255, 19)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -518,7 +573,64 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "BTN",
+        "pattern": "/USR*"
+      },
+      {
+        "netclass": "BTN",
+        "pattern": "USR_BTN_1"
+      },
+      {
+        "netclass": "BTN",
+        "pattern": "USR_BTN_2"
+      },
+      {
+        "netclass": "BTN",
+        "pattern": "USR_BTN_3"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "/LED*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI_NSS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI_SCK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI_MISO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SPI_MOSI"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "MICROSD_DETB"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "3v3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
