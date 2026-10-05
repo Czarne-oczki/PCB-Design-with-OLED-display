@@ -531,9 +531,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgb(123, 195, 0)",
+        "pcb_color": "rgb(0, 225, 233)",
         "priority": 0,
-        "schematic_color": "rgb(123, 195, 0)",
+        "schematic_color": "rgb(0, 225, 233)",
         "wire_width": 6
       },
       {
