@@ -1,6 +1,6 @@
 # PCB Design with OLED display
 # Overview
-I am designing a PCB that controls OLED display via I2C, communicating with an SD card via SPI and using USB.
+I am designing a 2-layer PCB that controls an OLED display via I2C, an SD card via SPI, and using a USB interface.
 
 
 <img width="790" alt="Zrzut ekranu 2026-10-08 175055" src="https://github.com/user-attachments/assets/57004eaa-07a1-4958-b792-ff2bf577a528" />
