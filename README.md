@@ -9,4 +9,4 @@ I am designing a 2-layer PCB that controls an OLED display via I2C, an SD card v
 
 <img width="953" height="791" alt="Zrzut ekranu 2026-10-08 174921" src="https://github.com/user-attachments/assets/058e427d-4744-42cc-875a-8cc965403794" />
 
-<img width="2339" height="1654" alt="third print-1" src="https://github.com/user-attachments/assets/96a82a66-131d-40a8-9d51-cd4f89ec6e64" />
+<img width="2339" height="1654" alt="fourth board-1" src="https://github.com/user-attachments/assets/3eceb1f0-b2d7-42d4-a1ea-faf0a57b4f95" />
