@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -606,32 +606,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
-      {
         "netclass": "SPI",
-        "pattern": "/SPI*"
-      },
-      {
-        "netclass": "BTN",
-        "pattern": "/USR*"
-      },
-      {
-        "netclass": "BTN",
-        "pattern": "USR_BTN_1"
-      },
-      {
-        "netclass": "BTN",
-        "pattern": "USR_BTN_2"
-      },
-      {
-        "netclass": "BTN",
-        "pattern": "USR_BTN_3"
-      },
-      {
-        "netclass": "LED",
-        "pattern": "/LED*"
+        "pattern": "SPI_SCK"
       },
       {
         "netclass": "SPI",
@@ -639,7 +615,7 @@
       },
       {
         "netclass": "SPI",
-        "pattern": "SPI_SCK"
+        "pattern": "SPI_MOSI"
       },
       {
         "netclass": "SPI",
@@ -647,19 +623,23 @@
       },
       {
         "netclass": "SPI",
-        "pattern": "SPI_MOSI"
+        "pattern": "MICROSD_DETB"
       },
       {
         "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "SPI",
-        "pattern": "MICROSD_DETB"
+        "netclass": "BTN",
+        "pattern": "/USR_BTN*"
       },
       {
-        "netclass": "3v3",
-        "pattern": "+*"
+        "netclass": "BTN",
+        "pattern": "/USR*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
       },
       {
         "netclass": "SerialWireDebug",
@@ -674,12 +654,28 @@
         "pattern": "/SWCLK"
       },
       {
-        "netclass": "cristal",
-        "pattern": "/HSE*"
+        "netclass": "SPI",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "/LED_PWR_K"
+      },
+      {
+        "netclass": "LED",
+        "pattern": "/LED*"
       },
       {
         "netclass": "I2C",
         "pattern": "/I2C*"
+      },
+      {
+        "netclass": "cristal",
+        "pattern": "/HSE*"
+      },
+      {
+        "netclass": "3v3",
+        "pattern": "+*"
       }
     ]
   },
