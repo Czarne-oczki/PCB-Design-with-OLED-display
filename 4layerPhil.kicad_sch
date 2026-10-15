@@ -5,6 +5,252 @@
 	(uuid "7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Buck_LM3671:LM3671MF-3.3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at -1.524 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM3671MF-3.3"
+				(at -2.54 12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LM3671MF-3.3:SOT95P280X145-5N"
+				(at 0.254 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 1.27 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "2MHz, 600mA Step-Down DC-DC Converter"
+				(at 0.254 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-5 Texas Instruments"
+				(at 1.27 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 10.922 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3671MF-3.3/NOPB/Texas+Instruments/view-part/?ref=snap"
+				(at 0.254 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LM3671MF-3.3/NOPB"
+				(at 1.27 19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=26293&manufacturer=Texas Instruments&part_name=LM3671MF-3.3/NOPB&search_term=None"
+				(at 0.254 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 10.922 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LM3671MF-3.3/NOPB/Texas+Instruments/view-part/?ref=eda"
+				(at 0.254 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LM3671MF-3.3_0_0"
+				(rectangle
+					(start -7.62 10.16)
+					(end 2.54 0)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4478,180 +4724,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TLV62569DBV_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV62569DBV"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
-				(at 0.508 -8.636 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Down Buck DC-DC Regulator Adjustable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV62569DBV_1_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV62569DBV_1_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "microSD_DM3AT:DM3AT-SF-PEJM5"
 			(pin_names
 				(offset 1.016)
@@ -5844,12 +5916,6 @@
 		(uuid "603cbc08-592e-4942-9449-26ae207d5c42")
 	)
 	(junction
-		(at 57.15 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62a45c2c-98b0-4864-bf63-846a11f95ccc")
-	)
-	(junction
 		(at 101.6 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6901,16 +6967,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 144.78) (xy 57.15 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3f3b9a-63e5-478d-a44b-0c40036b154c")
-	)
-	(wire
-		(pts
 			(xy 240.03 49.53) (xy 245.11 49.53)
 		)
 		(stroke
@@ -7821,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 63.5 144.78)
+			(xy 52.07 144.78) (xy 73.66 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8271,16 +8327,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 146.05) (xy 57.15 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bc6f41-e87a-4a13-a623-e26fc064e3f4")
-	)
-	(wire
-		(pts
 			(xy 222.25 134.62) (xy 222.25 132.08)
 		)
 		(stroke
@@ -8578,16 +8624,6 @@
 			(type default)
 		)
 		(uuid "efe3ec17-7a61-454e-b4c9-965b3012aa90")
-	)
-	(wire
-		(pts
-			(xy 71.12 144.78) (xy 73.66 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16ea3bd-ba60-4546-be87-a815bf9b4cc8")
 	)
 	(wire
 		(pts
@@ -11906,73 +11942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "529a372b-8e1c-4e31-a92c-3a73cc2ad939")
-		(property "Reference" "#PWR016"
-			(at 57.15 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "677dbc40-d157-451f-86f6-830a7b196632")
-		)
-		(instances
-			(project "4layerPhil"
-				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 240.03 17.78 0)
 		(unit 1)
@@ -14119,73 +14088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b0dd415-b2a8-40ee-b0e9-bbad04280335")
-		(property "Reference" "R9"
-			(at 54.61 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20k"
-			(at 59.436 150.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.372 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97087652-fb7d-477e-82db-032d24987267")
-		)
-		(pin "1"
-			(uuid "71492263-b581-465e-b44c-7ff0843dbbd5")
-		)
-		(instances
-			(project "4layerPhil"
-				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 81.28 146.05 0)
 		(unit 1)
@@ -14203,7 +14105,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 82.55 148.336 0)
 			(effects
 				(font
@@ -15610,73 +15512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 144.78 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d32b4d90-ee4e-4626-bf11-1618367c82e2")
-		(property "Reference" "R1"
-			(at 67.056 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "90k"
-			(at 67.056 147.066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 143.002 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e5a8ac8-6c18-4a35-bc04-a64de2cc371f")
-		)
-		(pin "1"
-			(uuid "3ad1a466-c221-4bf1-9f39-37b08907bacb")
-		)
-		(instances
-			(project "4layerPhil"
-				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 115.57 0)
 		(unit 1)
@@ -16284,86 +16119,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TLV62569DBV_1")
-		(lib_id "Regulator_Switching:TLV62569DBV")
-		(at 44.45 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec8a1cbb-ea7e-422a-8516-75fa41564a9c")
-		(property "Reference" "U4"
-			(at 44.45 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV62569DBV"
-			(at 44.45 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 45.72 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
-			(at 38.1 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
-			(at 44.958 150.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "1820549d-e27d-4d9f-aaf4-0bfab3f96e35")
-		)
-		(pin "1"
-			(uuid "d151f8b8-2ccd-4d91-944c-62f7326f5162")
-		)
-		(pin "2"
-			(uuid "eb62b9c3-13d7-40f7-88be-607c78d4ef27")
-		)
-		(pin "3"
-			(uuid "e4dc2105-0cac-4bef-9881-6929573f06d1")
-		)
-		(pin "4"
-			(uuid "e3e79bde-a1f6-45d5-9b06-ea830aea81e6")
-		)
-		(instances
-			(project ""
-				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 231.14 71.12 0)
 		(unit 1)
@@ -16824,6 +16579,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Buck_LM3671:LM3671MF-3.3")
+		(at 46.99 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad9503b-f7f7-4bf1-b8f3-ef6025390d90")
+		(property "Reference" "U1"
+			(at 45.466 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM3671MF-3.3"
+			(at 44.45 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Buck_LM3671:SOT95P280X145-5N"
+			(at 47.244 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 48.26 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2MHz, 600mA Step-Down DC-DC Converter"
+			(at 47.244 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 48.26 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.912 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM3671MF-3.3/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 47.244 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM3671MF-3.3/NOPB"
+			(at 48.26 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=26293&manufacturer=Texas Instruments&part_name=LM3671MF-3.3/NOPB&search_term=None"
+			(at 47.244 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.912 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM3671MF-3.3/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 47.244 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "32892a3e-6bdc-4619-acd4-13da28e2e932")
+		)
+		(pin "5"
+			(uuid "af679e12-7a82-4eef-8fff-2865681e86ed")
+		)
+		(pin "3"
+			(uuid "632e07a4-e839-4826-b9d3-901454af309c")
+		)
+		(pin "2"
+			(uuid "4b676dff-2c62-4395-968b-97e4ade23d6c")
+		)
+		(pin "1"
+			(uuid "3c665e47-94b9-4c87-bafd-d0523546d0b0")
+		)
+		(instances
+			(project ""
+				(path "/7ec3a92f-71da-4a6b-be29-ed63fa8d0fd2"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 77.47 87.63 0)
 		(unit 1)
@@ -16902,4 +16825,21 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "SOT95P280X145-5N.kicad_mod")
+			(type other)
+			(data |KLUv/WDYBh0OAAaVQR8gc3X/mMTTwId+4SPQpDLdkYK4EbPhbMIX1QChAYcBOgA2ADcAH27KxpqZ
+				e9stA4Hb6vJkP6BFA2VQJBCFN53c7I2TcNQtg+TFzoARJEiSFycHPEQakHeldtMajcUAAcy5ZKc1
+				KLn3e7liKnqJ7p1D9LJ31Vjstyu2LGY/BHNRSHuPD7opeuG5F10goBSPc1XZssX2HVObXqUWm6FY
+				npeG+0qHo465cuGo3wN071KDByg1OLl3DW1pLYW9K7azcjT20qfcVCT1OEEH3zItiuCbk7YJg+Sm
+				6DFGMbpnmCTCYNBW9mXnSq+KpNz7pSf1sA9m5ScRLHflip2vytKKsrEiSBg89wJPoGE9goRERCQp
+				bKXNUIrITJ4HxyCpr9NZcK9Tv/X8GZoJtvFGSHGS9jsN+4AL0s1eFbMTnehg1PBXWwRVPnZ6vO7u
+				BBuzCvJUKUZuWg4p+ftpJll8hrQvQoMDSX2jqSzdOp0qleG7mIgyWMwJAJq2kYpJYE4WmtwowPjk
+				j+OgGokO4oE3DUxcWHAX4TSxCaAukZBFA44FMlC/esEB9kcaA3m8emL3g5jhA0XmhBIKkJpLTbTf
+				W2SAYKo=|
+			)
+			(checksum "A587B8144C819E7A27E59AC61078F764")
+		)
+	)
 )
